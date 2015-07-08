@@ -2,6 +2,15 @@
 #Tasty Backend Media Module Readme
 
 The Tasty Backend Media module will...
+#### What does the Tasty Backend Media Module do?
+Focuses on providing clients and content managers with a simplified, easy to use, delicious and overall useful experience on their site. 
+
+
+* Creates 2 usertypes(Content admin and User Admin) and sets initial permissions for each automatically.
+* Selects the easy to use admin theme - Seven and enables the handy admin toolbar.
+* Creates a bunch of useful new views that focus on essential info
+* Puts pretty much everything into vertical tabs. 
+* and so much more! 
 
 
 The Tasty Backend modules do **not** require you to use the Tasty Backend Install Profile. You can try it out on a new install someday.
@@ -11,18 +20,15 @@ Download the zip and place the expanded folder in your /sites/default/all/module
 
 Go to admin/modules and make sure you have all the prerequisite modules installed, and then activate the Tasty Backend Media Module.
 
+**The Tasty Backend Media Module requires these prerequisite modules.**
+    * **Core module:** *media*
+    * **Contributed modules**: *tasty_backend_base*
+
 ####If you are not using the Tasty Backend Install Profile
 **(ie. adding it to an existing install)**
 
-The context admin module is best with a few patches.  The install profile patches it, but without that, use these:
+Review the tasty_backend_base installation notes.
 
-* https://drupal.org/files/undefined_index-1760610-3.patch
-* https://drupal.org/files/issues/context_admin-reset_terms_alphabetical_redirect-2276567-1.patch
-
-Here's the details on those:
-* https://www.drupal.org/node/1760610
-
-These patches apply fine to latest dev of context admin
 ###About Tasty Backend
 Tasty Backend Modules and Base Install Profiles were created by @jenitehan using the usability improvements spoken about in her DrupalCon talks 'Building a Tasty Backend'
 
