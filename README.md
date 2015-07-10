@@ -5,10 +5,9 @@ The Tasty Backend Media module will...
 #### What does the Tasty Backend Media Module do?
 Focuses on providing clients and content managers with a simplified, easy to use, delicious and overall useful experience on their site. 
 
-
-* Creates 2 usertypes(Content admin and User Admin) and sets initial permissions for each automatically.
-* Selects the easy to use admin theme - Seven and enables the handy admin toolbar.
-* Creates a bunch of useful new views that focus on essential info
+* Creates #Xnumber# new views that improve managing and handling media
+   *custom file bulk operations view - admin/manage/files/list
+   *
 * Puts pretty much everything into vertical tabs. 
 * and so much more! 
 
