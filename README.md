@@ -6,7 +6,7 @@ The Tasty Backend Media module better integrates the core Media module with Tast
 
 * Applies Media permissions to the Content Admin role that the Tasty Backend Base created.
 * Creates #Xnumber# new views that improve managing and handling media
-   *custom file bulk operations view - admin/manage/files/list
+   * custom file bulk operations view - admin/manage/files/list
 * Adds menu items to the navigation menu/
 * Adds some local tasks links to for adding files
 
