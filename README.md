@@ -5,8 +5,8 @@ The Tasty Backend Media module better integrates the core Media module with Tast
 
 
 * Applies Media permissions to the Content Admin role that the Tasty Backend Base created.
-* Creates #Xnumber# new views that improve managing and handling media
-   * custom file bulk operations view - admin/manage/files/list
+* Creates several new views to improve managing media
+   * for example - admin/manage/files/list
 * Adds menu items to the navigation menu
 * Adds some local tasks links to for adding files
 
@@ -19,8 +19,7 @@ Download the zip and place the expanded folder in your /sites/default/all/module
 Go to admin/modules and make sure you have all the prerequisite modules installed, and then activate the Tasty Backend Media Module.
 
 **The Tasty Backend Media Module requires these prerequisite modules.**
-    * **Core module:** *media*
-    * **Contributed modules**: *tasty_backend_base*
+    * **Contributed modules**:  *media* *tasty_backend_base*
 
 ###Use
 After installing and enabling the module, login with a user who has the Content Admin role. 
@@ -28,7 +27,7 @@ After installing and enabling the module, login with a user who has the Content 
 For additional instructions, review the tasty_backend_base installation notes.
 
 ###About Tasty Backend
-Tasty Backend Modules and Base Install Profiles were created by @jenitehan using the usability improvements spoken about in her DrupalCon talks 'Building a Tasty Backend'
+Tasty Backend Modules and Base Install Profiles were created by @jenitehan using the usability improvements spoken about in her DrupalCon talks 'Building a Tasty Backend'.
 
 You can view one of these at [Building a Tasty Backend](https://amsterdam2014.drupal.org/session/building-tasty-backend.html) from DrupalCon Amsterdam '14
 
